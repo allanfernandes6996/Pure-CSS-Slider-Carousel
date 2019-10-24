@@ -1,0 +1,91 @@
+@import './../partials/buttons';
+@import './../partials/forms';
+@import './../partials/mixins';
+@import './../partials/reset';
+@import './../partials/typography';
+@import './../partials/variables';
+
+
+.const-pd{
+    padding: 0 30px;
+}
+.first-fold{
+    background-image: url('../../assets/images/mobile-first-fold.svg');
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+.fold-title{
+    @extend .const-pd;
+    margin-top: 50px;
+    font-family: 'ObjectSans-Regular';
+    font-size: 20px;
+    color: $header-blue;
+
+}
+
+.fold-subtitle{
+    @extend .const-pd;
+    font-family: 'ObjectSans-Regular';
+    margin-top: 15px;
+    font-size: 14px;
+    color: #000;
+}
+
+.first-fold-img{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    padding: 0 30px;
+}
+
+.rectangle-cards{
+    @extend .const-pd; 
+    display: inline-block;
+    text-align: center;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.card-box{
+    background-color: #fff;
+    border-radius: 14px;
+    -webkit-box-shadow: 0 6px 45px -14px rgba(0, 0, 0, 0.18);
+    box-shadow: 0 6px 45px -14px rgba(0, 0, 0, 0.18);
+    height: 200px;
+    width: 250px;
+    margin: 20px 10px;
+    display: inline-table;
+}
+
+.card-title{
+    font-family: 'ObjectSans-Heavy';
+    color: $header-blue;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 10px 0;
+}
+
+
+.card-desc{
+    font-family: 'ObjectSans-Regular';
+    color: $header-blue;
+    line-height: 21px;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+
+// /media queries for tablet 
+/*###Desktops, big landscape tablets and laptops(Large, Extra large)####*/
+@media screen and (min-width: 1024px){
+    /*Style*/
+    }
+    
+    /*###Tablet(medium)###*/
+    @media screen and (min-width : 768px) and (max-width : 1023px){
+    
+    }

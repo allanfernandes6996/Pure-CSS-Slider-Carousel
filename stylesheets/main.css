@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+@font-face {
+  font-family: 'ObjectSans-Regular';
+  src: url("../../assets/fonts/ObjectSans-Regular.WOFF");
+}
+
+@font-face {
+  font-family: 'ObjectSans-Heavy';
+  src: url("../../assets/fonts/ObjectSans-Heavy.WOFF");
+}
+
+.const-pd, .fold-title, .fold-subtitle, .rectangle-cards {
+  padding: 0 30px;
+}
+
+.first-fold {
+  background-image: url("../../assets/images/mobile-first-fold.svg");
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+
+.fold-title {
+  margin-top: 50px;
+  font-family: 'ObjectSans-Regular';
+  font-size: 20px;
+  color: #3d0e80;
+}
+
+.fold-subtitle {
+  font-family: 'ObjectSans-Regular';
+  margin-top: 15px;
+  font-size: 14px;
+  color: #000;
+}
+
+.first-fold-img {
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+  padding: 0 30px;
+}
+
+.rectangle-cards {
+  display: inline-block;
+  text-align: center;
+  margin-top: 100px;
+  width: 100%;
+}
+
+.card-box {
+  background-color: #fff;
+  border-radius: 14px;
+  -webkit-box-shadow: 0 6px 45px -14px rgba(0, 0, 0, 0.18);
+  box-shadow: 0 6px 45px -14px rgba(0, 0, 0, 0.18);
+  height: 200px;
+  width: 250px;
+  margin: 20px 10px;
+  display: inline-table;
+}
+
+.card-title {
+  font-family: 'ObjectSans-Heavy';
+  color: #3d0e80;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.card-desc {
+  font-family: 'ObjectSans-Regular';
+  color: #3d0e80;
+  line-height: 21px;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+/*###Desktops, big landscape tablets and laptops(Large, Extra large)####*/
+@media screen and (min-width: 1024px) {
+  /*Style*/
+}
+
+/*###Tablet(medium)###*/
+.carousel {
+  position: relative;
+  height: 600px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.carousel__track-container {
+  background: lightgreen;
+  height: 100%;
+  position: relative;
+}
+
+.carousel__track {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.carousel__slide {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.carousel__button {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background: black;
+  border: 0;
+  cursor: pointer;
+}
+
+.carousel__button--left {
+  left: -40px;
+}
+
+.carousel__button--right {
+  right: -40px;
+}
+
+.carousel__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px 0;
+}
+
+.carousel__indicator {
+  border: 0;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  background: rgba(0, 0, 0, 0.3);
+  margin: 0 12px;
+}
+
+.carousel__indicator.current-slide {
+  background: rgba(0, 0, 0, 0.75);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+/*# sourceMappingURL=main.css.map */
